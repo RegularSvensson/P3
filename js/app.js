@@ -56,6 +56,9 @@ Player.prototype.update = function(dt) {
     
     this.cltKey = null;
 
+    if (this.y < 25) {
+        this.reset();
+    }
 }
 
 // Now instantiate your objects.
