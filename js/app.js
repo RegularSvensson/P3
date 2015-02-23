@@ -44,6 +44,15 @@ var Player = function() {
 }
 
 Player.prototype.update = function(dt) {
+    if (this.ctlKey === 'left' && this.x > 0) {
+        this.x = this.x - 50;
+    } else if (this.ctlKey === 'right' && this.x != 400) {
+        this.x = this.x + 50;
+    } else if (this.ctlKey === 'up') {
+        this.y = this.y - 50;
+    } else if (this.ctlKey === 'down' && this.y != 400) {
+        this.y = this.y + 50;
+    }
 }
 
 // Now instantiate your objects.
