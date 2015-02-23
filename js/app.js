@@ -43,6 +43,8 @@ var Player = function() {
     this.y = 400;
 }
 
+Player.prototype.update = function(dt) {
+}
 
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
