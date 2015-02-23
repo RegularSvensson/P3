@@ -23,6 +23,10 @@ Enemy.prototype.update = function(dt) {
     } else {
         this.x = -2;
     }
+
+    if (player.x >= this.x - 30 && player.x <= this.x + 30 || player.x => this.y - 30 && player.y <= this.y + 30) {
+        this.reset();
+    }
 }
 
 // Draw the enemy on the screen, required method for game
