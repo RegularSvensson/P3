@@ -79,8 +79,7 @@ Player.prototype.handleInput = function(e) {
 var allEnemies = [];
 (function setEnemies() {
     allEnemies.push(new Enemy(-2, 60));
-    allEnemies.push(new Enemy(-2, 100));
-    allEnemies.push(new Enemy(-2, 150));
+    allEnemies.push(new Enemy(-2, 140));
     allEnemies.push(new Enemy(-2, 220));
 }());
 
