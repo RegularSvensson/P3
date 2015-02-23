@@ -71,10 +71,7 @@ Player.prototype.handleInput = function(e) {
     this.ctlKey = e;
 }
 
-Player.protoype.reset = function() {
-    player.x = 200;
-    player.y = 400;
-}
+
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
