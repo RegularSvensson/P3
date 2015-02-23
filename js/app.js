@@ -1,6 +1,12 @@
 Object.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 }
+
+Object.prototype.reset = function() {
+  player.x = 200;
+  player.y = 400;
+}
+
 // Enemies our player must avoid
 var Enemy = function(x, y) {
     // Variables applied to each of our instances go here,
