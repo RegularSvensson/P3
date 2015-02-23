@@ -60,7 +60,7 @@ Player.prototype.update = function(dt) {
         this.y = this.y + 50;
     }
     
-    this.cltKey = null;
+    this.ctlKey = null;
 
     if (this.y < 25) {
         this.reset();
