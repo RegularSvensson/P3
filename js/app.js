@@ -53,6 +53,9 @@ Player.prototype.update = function(dt) {
     } else if (this.ctlKey === 'down' && this.y != 400) {
         this.y = this.y + 50;
     }
+    
+    this.cltKey = null;
+
 }
 
 // Now instantiate your objects.
